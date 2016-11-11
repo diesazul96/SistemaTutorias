@@ -1,13 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//Clase: Persona
+import java.util.ArrayList;
 
-/**
- *
- * @author labing
- */
 public class Pipoll {
+    private String nombre;
+    private String identificacion;
+
+    public Pipoll(String nombre, String identificacion) {
+        this.nombre = nombre;
+        this.identificacion = identificacion;
+    }
+    
     
 }

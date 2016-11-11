@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+// Clase: Tutores
+public abstract class Ticherzithos extends Pipoll{
 
-/**
- *
- * @author labing
- */
-public class Ticherzithos {
+    public Ticherzithos(String nombre, String identificacion) {
+        super(nombre, identificacion);
+    }
+    
     
 }
