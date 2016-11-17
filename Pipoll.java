@@ -2,8 +2,8 @@
 import java.util.ArrayList;
 
 public class Pipoll {
-    private String nombre;
-    private String identificacion;
+    protected String nombre;
+    protected String identificacion;
 
     public Pipoll(String nombre, String identificacion) {
         this.nombre = nombre;
