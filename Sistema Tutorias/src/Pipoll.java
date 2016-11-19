@@ -8,4 +8,14 @@ public class Pipoll {
         this.nombre = nombre;
         this.identificacion = identificacion;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
+    
 }
