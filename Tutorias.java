@@ -21,6 +21,14 @@ public class Tutorias {
         }
     }
 
+    public StudntBiutifulsito[] getEstudiantes() {
+        StudntBiutifulsito es [] = new StudntBiutifulsito[cantidadLimiteEstudiantes];
+        for (int i = 0; i < es.length; i++){
+            es[i] = estudiantes[i];
+        }
+        return es;
+    }
+
     public Ticherzithos getProfesor() {
         return profesor;
     }

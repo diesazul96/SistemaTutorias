@@ -39,13 +39,18 @@ public class Universidad {
         for (int i = 0; i < cantidadTutorias; i++){
             if (this.tutorias[i].getMateria().getNombre().equalsIgnoreCase(nombreTutoria)){
                 aux [cont] = this.tutorias[i];
+                cont++;
             }
         }
         return aux;
     }
 
     public Tutorias[] getTutorias() {
-        return tutorias;
+        Tutorias tu [] = new Tutorias[cantidadTutorias];
+        for (int i = 0; i < tu.length; i++) {
+            tu[i] = this.tutorias [i];
+        }
+        return tu;
     }
 
     public void setTutorias(Tutorias[] tutorias) {
