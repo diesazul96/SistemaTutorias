@@ -12,6 +12,8 @@ public abstract class Ticherzithos extends Pipoll {
 
     public abstract void cantidadMaterias (int cantidad);
 
+    public abstract double calcularSalario(int horas);
+
     public TingAkdemic[] getMaterias() {
         return materias;
 
