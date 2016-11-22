@@ -9,10 +9,17 @@ public abstract class Ticherzithos extends Pipoll {
     private TingAkdemic[] materias;
     private String[] Horario;
     private int numeroMaterias;
+    private int sueldo = 0;
+    
+    public int getSueldo() {
+        return sueldo;
+    }
 
-    public abstract void cantidadMaterias (int cantidad);
+    public void setSueldo(int sueldo) {
+        this.sueldo = sueldo;
+    }
 
-    public abstract double calcularSalario(int horas);
+    public abstract void calcularSalario(int horas);
 
     public TingAkdemic[] getMaterias() {
         return materias;
