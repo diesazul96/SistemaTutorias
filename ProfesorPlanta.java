@@ -8,12 +8,7 @@ public class ProfesorPlanta extends Ticherzithos implements Topics{
     }
 
     @Override
-    public void cantidadMaterias(int cantidad) {
-
-    }
-
-    @Override
-    public double calcularSalario(int horas) {
-        return 0;
+    public void calcularSalario(int horas) {
+        this.setSueldo(this.getSueldo() + (horas*60000));
     }
 }
