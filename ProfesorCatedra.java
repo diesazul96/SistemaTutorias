@@ -8,12 +8,7 @@ public class ProfesorCatedra extends Ticherzithos implements Topics{
     }
 
     @Override
-    public void cantidadMaterias(int cantidad) {
-
-    }
-
-    @Override
-    public double calcularSalario(int horas) {
-        return horas * 10000;
+    public void calcularSalario(int horas) {
+        this.setSueldo(this.getSueldo() + (horas*80000));
     }
 }
