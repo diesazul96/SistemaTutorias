@@ -1,6 +1,4 @@
-/**
- * Created by santirogo on 19/11/16.
- */
+
 public class Universidad {
     private int informacion [][];
     private Tutorias tutorias [];
