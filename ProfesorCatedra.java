@@ -1,6 +1,4 @@
-/**
- * Created by santirogo on 19/11/16.
- */
+
 public class ProfesorCatedra extends Ticherzithos implements Topics{
 
     public ProfesorCatedra(String nombre, String id){
