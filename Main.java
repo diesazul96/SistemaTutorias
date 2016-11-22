@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * Created by santirogo on 19/11/16.
- */
 public class Main {
     public static void main(String[] args) {
         Scanner lec = new Scanner(System.in);
