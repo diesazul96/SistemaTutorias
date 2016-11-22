@@ -1,6 +1,4 @@
-/**
- * Created by santirogo on 19/11/16.
- */
+
 public class Tutorias {
     private Ticherzithos profesor;
     private TingAkdemic materia;
