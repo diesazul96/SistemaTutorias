@@ -29,8 +29,8 @@ public class Main {
                         String nombreMateria = lec.next();
                         System.out.println("Digite el numero de horas de la tutoria");
                         String horas = lec.next();
-                        int salario = pp.calcularSalario(horas);
-                        System.out.println("El pago que se debe hacer por esta tutoria es de " + salario);
+                        pp.calcularSalario(Integer.parseInt(horas));
+                        System.out.println("El pago que se debe hacer por esta tutoria es de " + pp.getSueldo());
                         TingAkdemic m = new TingAkdemic(nombreMateria);
                         Tutorias tut = new Tutorias(pp, m);
                         System.out.println("Tutoría de "+m.getNombre()+" con el profesor(a) "+pp.getNombre()+" creada correctamente");
@@ -46,8 +46,8 @@ public class Main {
                         String nombreMateria = lec.next();
                         System.out.println("Digite el numero de horas de la tutoria");
                         String horas = lec.next();
-                        int salario = pc.calcularSalario(horas);
-                        System.out.println("El pago que se debe hacer por esta tutoria es de " + salario);
+                        pc.calcularSalario(Integer.parseInt(horas));
+                        System.out.println("El pago que se debe hacer por esta tutoria es de " + pc.getSueldo);
                         TingAkdemic m = new TingAkdemic(nombreMateria);
                         System.out.println("materia " + nombreMateria + " agregada correctamente");
                         Tutorias tut = new Tutorias(pc, m);
